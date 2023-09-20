@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    align-items: center;
+    gap: 3.25rem;
+    margin-bottom: 3.25rem;
+}
+
+.image {
+    object-fit: cover;
+}
+
+.content {}
+
+.title {
+    margin-bottom: .6rem;
+}
+
+.desc {
+    font-size: 1.1rem;
+    color: #999;
+}
