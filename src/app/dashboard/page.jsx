@@ -1,4 +1,5 @@
 'use client';
+import React, { useEffect, useState } from 'react';
 import styles from './page.module.css';
 import useSWR from 'swr';
 import { useSession } from 'next-auth/react';
@@ -79,9 +80,10 @@ const Dashboard = () => {
   const handleDelete = async (id) => {
     try {
       await fetch(`/api/posts/${id}`, {
-        method: 'DELETE',
+        method: "DELETE"
       });
       mutate();
+      e.target.reset();
     } catch (err) {
       console.log(err);
     }
