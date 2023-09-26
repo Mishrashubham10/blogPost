@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.form {
+    width: 18.75rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.input {
+    padding: 1rem;
+    background-color: transparent;
+    color: #bbb;
+    border: 2px solid #bbb;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.button {
+    width: 18.75rem;
+    padding: 1rem;
+    cursor: pointer;
+    background-color: #53c28b;
+    border: none;
+    border-radius: 5px;
+    color: #eee;
+    font-weight: bold;
+    letter-spacing: 1px;
+}

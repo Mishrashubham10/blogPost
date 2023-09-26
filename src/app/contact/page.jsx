@@ -1,7 +1,13 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import styles from './page.module.css';
 import Image from 'next/image';
 import Button from '@/components/button/Button';
+
+export const metadata = {
+  title: "Shubham Mishra Contact Information",
+  description: "This is Contact Page"
+}
 
 const Contact = () => {
   return (
